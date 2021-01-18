@@ -1,0 +1,45 @@
+# Verificamos que el módulo de reescritura de urls del
+# Apache esté disponible.
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    # Encendemos el módulo de reescritura.
+    RewriteEngine On
+
+    # El módulo de reescritura se basa en 2 instrucciones:
+    # RewriteCond que define una condición que debe verificarse.
+    # RewriteRule que indica lo que debe hacerse si todas las RewriteCond previas se cumplen.
+
+    # Handle Authorization Header
+    # Este header es necesario para trabajar con tokens en ciertos escenarios standards.
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder... (quitar la "/" del final, si la hay).
+    # Verificamos si el {REQUEST_FILENAME} (archivo de la petición) NO es un directorio REAL.
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Verificamos si la URL que se pide termina en una "/", y "capturamos" todo lo que esté
+    # antes de la barra con el uso de los paréntesis.
+    RewriteCond %{REQUEST_URI} (.+)/$
+    # De cumplirse esas condiciones, entonces redireccionamos al usuario a la URL capturada con
+    # los paréntesis, que es todo salvo la "/" del final.
+    # Entre [] figuran los flags que modifican la regla.
+    # Flags:
+    # L: Indica que si la regla aplica, entonces no hace falta seguir parseando.
+    # R: Indica que es un redireccionamiento. 301 es un redireccionamiento permanente.
+    #   Muy importante para motores de búsqueda.
+    #   De dejar R solo, se asume por default 302, que es redireccionamiento temporal.
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller... Hacemos que toda petición a un archivo o carpeta que no exista
+    # sea manejada por el index.php (pero *sin* redireccionar).
+    # -d: Pregunta si es un directorio.
+    # -f: Pregunta si es un arcivo (file).
+    # Es decir, si la url pedida no matchea con ningún archivo ni directorio, entonces
+    # le decimos que ejecute el archivo index.php (noten que no está el flag R).
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

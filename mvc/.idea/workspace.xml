@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1b266a3-277d-4a23-9bf8-92b44277ee33" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1k543DmLNE8ti3dXhfIYiDW8QrH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/AddCar/Controllers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Parcial-02_Progra-III-CW_2020\mvc\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Parcial-02_Progra-III-CW_2020\mvc\app\AddCar\Controllers" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1b266a3-277d-4a23-9bf8-92b44277ee33" name="Default Changelist" comment="" />
+      <created>1604976916931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604976916931</updated>
+      <workItem from="1604976918131" duration="6915000" />
+      <workItem from="1605306579325" duration="68559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1190" y="277" width="816" height="729" key="#Intentions" timestamp="1605412425549">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1190" y="277" width="816" height="729" key="#Intentions/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605412425549" />
+    <state x="194" y="254" key="#SQL_Dialects" timestamp="1605377126074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="194" y="254" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1605377126074" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605377101976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605377101976" />
+    <state x="-977" y="301" key="#com.intellij.ide.util.MemberChooser" timestamp="1605760918054">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-977" y="301" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605760918054" />
+    <state x="-1052" y="374" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605583902778">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1052" y="374" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605583902778" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605306606480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605306606480" />
+    <state x="-1015" y="285" key="NewPhpClassDialog" timestamp="1605745215975">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1015" y="285" key="NewPhpClassDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605745215975" />
+    <state x="-897" y="485" key="NewPhpFileDialog" timestamp="1605411917150">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-897" y="485" key="NewPhpFileDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605411917150" />
+  </component>
+</project>

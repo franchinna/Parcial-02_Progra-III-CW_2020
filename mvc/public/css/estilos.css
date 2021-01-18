@@ -1,0 +1,30 @@
+/*
+CSS
+*/
+
+html, body {
+    height: 100%;
+    /*font-family: Verdana, Arial, sans-serif;*/
+    /*font-size: .9em;*/
+}
+
+.app {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100%;
+}
+
+.main-content {
+    padding-bottom: 70px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #ededed;
+    line-height: 50px;
+    text-align: center;
+}
+
+.error {
+    margin: 10px 0;
+}
